@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    // 변환할 JavaScript 버전
+    "target": "ES2022",
+    
+    // 모듈 시스템 (import/export 방식)
+    "module": "ESNext",
+    
+    // 사용할 JavaScript 기능들
+    "lib": ["ES2022"],
+    
+    // 모듈 해석 방식
+    "moduleResolution": "node",
+    
+    // JSON 파일 import 허용
+    "resolveJsonModule": true,
+    
+    // JavaScript 파일도 허용
+    "allowJs": true,
+    
+    // 컴파일 결과물 폴더
+    "outDir": "./dist",
+    
+    // 소스 코드 폴더
+    "rootDir": "./src",
+    
+    // 엄격한 타입 체크 (중요!)
+    "strict": true,
+    
+    // CommonJS 모듈과 호환
+    "esModuleInterop": true,
+    
+    // 라이브러리 타입 체크 건너뛰기 (빌드 속도 향상)
+    "skipLibCheck": true,
+    
+    // 파일 이름 대소문자 구분
+    "forceConsistentCasingInFileNames": true,
+    
+    // .d.ts 파일 생성 (타입 정의 파일)
+    "declaration": true,
+    
+    // 소스맵 생성 (디버깅용)
+    "sourceMap": true,
+    
+    // 사용 안 하는 변수 경고
+    "noUnusedLocals": true,
+    
+    // 사용 안 하는 매개변수 경고
+    "noUnusedParameters": true,
+    
+    // return 문 누락 경고
+    "noImplicitReturns": true,
+    
+    // switch문 fallthrough 경고
+    "noFallthroughCasesInSwitch": true
+  },
+  
+  // 컴파일할 파일들
+  "include": ["src/**/*"],
+  
+  // 제외할 폴더들
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
+}
+
