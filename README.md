@@ -310,12 +310,6 @@ create-tailwind-notes/
 
 ---
 
-## 📝 라이선스
-
-MIT License
-
----
-
 ## 🙏 감사의 말
 
 이 프로젝트는 토스 Frontend Platform Assistant 모집 과정에서 제작되었습니다.
@@ -323,14 +317,4 @@ MIT License
 - **토스**: 개발자 도구의 중요성을 일깨워준 공고
 - **오픈소스 커뮤니티**: Commander.js, Vite 등 훌륭한 도구들
 
----
-
-## 📞 문의
-
-- **GitHub**: [프로젝트 저장소](https://github.com/yourusername/create-tailwind-notes)
-- **이슈**: 버그 리포트 및 기능 제안은 GitHub Issues로
-
----
-
-**Made with ❤️ for better Developer Experience**
 
